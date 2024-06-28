@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/pagagendamento.css">
+    <title>Agendamento de Seviço</title>
+</head>
+<body>
+    <body>
+        <div class="texto">
+            <h1>Faça o agendamento do serviço aqui</h1>
+        </div>
+    
+        <div>
+            <form action="https://formsubmit.co/amandisberto@gmail.com" method="post">
+                <fieldset>
+                    <legend>Dados</legend>
+                    <label>Nome:</label>
+                    <input type="text" name="Nome" placeholder="Nome completo" class="class_input_name" required>
+                    <label>CPF:</label>
+                    <input type="text" name="CPF" placeholder="Digite seu CPF" pattern="[0-9]{11}" required>
+                    <label>Tipo do Pet:</label>
+                    <select name="TipodoPet">
+                        <option value="Cachorro">Cachorro</option>
+                        <option value="Gato">Gato</option> 
+                    </select>
+                    <label>Sexo:</label>
+                    <select name="sexopet">
+                        <option value="pet_macho">Macho</option>
+                        <option value="pet_femea">Fêmea</option>
+                    </select>
+                    <br><br>
+                    <label>Raça do Pet:</label>
+                    <input type="text" name="Raça" placeholder="Digite a raça do seu pet">
+                    <label>Telefone Para Contato:</label>
+                    <input type="text" name="Telefone" placeholder="Número de Telefone" pattern="[0-9]{11}" required>
+                    <label>Deseja serviço de tele-busca?</label>
+                    <input type="checkbox" name="Sim">Sim
+                    <input type="checkbox" name="Não">Não
+                </fieldset>
+                <br>
+                <fieldset> 
+                    <legend>Endereço(Caso escolha a Tele-busca)</legend>
+                    <label>Rua:</label>
+                    <input type="text" name="logradouro" placeholder="Nome da rua" class="class_input" required>
+                    <label>Número:</label>
+                    <input type="text" name="numero" placeholder="Número" required>
+                    <br><br>
+                    <label>Complemento:</label> 
+                    <input type="text" name="complemento" placeholder="Apto, Bloco">
+                    <label>CEP:</label>
+                    <input type="text" name="CEP" placeholder="Digite seu CEP" pattern="[0-9]{8}" required>
+                    <br>
+                    <br>
+                </fieldset>
+                <br>
+                <fieldset> 
+                    <legend>Agendamento do Serviço</legend>
+                    <label>Escolha data e hora para o banho e tosa do seu pet:</label>
+                    <input type="date" name="databt">
+                    &nbsp;&nbsp;&nbsp;&nbsp;<input type="time">
+                    <br><br>
+                    <label>Escolha data e hora para buscar o pet (Caso escolha a Tele-busca):</label>
+                    <input type="date" name="databusca">
+                    &nbsp;&nbsp;&nbsp;&nbsp;<input type="time">
+                </fieldset>
+                <br><br><br><br>
+                    <center>
+                        <input class="class_botao_enviar" type="submit">
+                    </center>
+                        <br>
+            </form>
+
+            <hr>
+            
+            <footer>
+                </div> 
+                    <a href="../index.html"><p>Voltar</p></a>
+                
+                <div class="pag">
+                    <a href="pagserviço.html">Ir para a Página de Serviços</a>
+                </div>
+            </footer>
+</body>
+</html>

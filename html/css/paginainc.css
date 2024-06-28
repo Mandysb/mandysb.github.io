@@ -1,0 +1,68 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(218, 218, 218);
+}
+
+.an
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.Entrar button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button
+{
+    width: 150px;
+    border-radius: 20px;
+}
+
+header
+{
+    width: 100%;
+    background-color:rgb(248, 168, 181);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    text-decoration: black;
+}
+
+/*comandoo "text-decoration: none;" colocado para retirar a linha preta do link, por motivos estéticos*/
+a:link
+{
+    color: black;
+    text-decoration: none;
+}
+a:visited
+{
+    color: black;
+    text-decoration: none;
+}
+
+.cachorro img
+{
+    text-align: center;
+}
+
+h4
+{
+    font-weight: lighter;
+}
+
+
+
+

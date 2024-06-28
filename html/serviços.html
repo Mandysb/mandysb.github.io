@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./css/serviços.css">
+</head>
+<body>
+    <div class="texto">
+        <h1>Faça o seu cadastro e o do seu Pet!</h1>
+        <p>Antes de visualizar nossos serviços preencha seu cadastro:</p>
+    </div>
+
+    <div>
+        <form action="https://formsubmit.co/amandisberto@gmail.com" method="post">
+            <fieldset>
+                <legend>Seus Dados Pessoais</legend>
+                <label>Nome:</label>
+                <input type="text" name="Nome" placeholder="Nome completo" class="class_input_name" required>
+                <label>RG:</label>
+                <input type="text" name="RG" placeholder="Digite seu RG" pattern="[0-9]{9}" required>
+                <br><br>
+                <label>CPF:</label>
+                <input type="text" name="CPF" placeholder="Digite seu CPF" pattern="[0-9]{11}" required>
+                <label>Data de Nascimento:</label>
+                <input type="text" name="Nascimento" placeholder="DD/MM/AAAA" pattern="[0-9]{8}" required>
+                <br><br>
+                <label>Masculino</label>
+                <input type="radio" value="masculino">
+                <label>Feminino</label>
+                <input type="radio" value="feminino">
+                <label>Estado Civil:</label>
+                <select name="EstadoCivil">
+                    <option value="solteiro">Solteiro(a)</option>
+                    <option value="casado">Casado(a)</option>
+                    <option value="divorciado">Divorciado(a)</option>
+                    <option value="viuvo">Viuvo(a)</option>
+                    <option value="união estável">União Estável</option>
+                    <option value="outro">Outros</option>
+                </select>
+                <br><br>
+                <label>E-mail:</label>
+                <input type="text" name="E-mail" placeholder="Digite seu E-mail" required>
+                <label>Telefone:</label>
+                <input type="text" name="Telefone" placeholder="Número de Telefone" pattern="[0-9]{11}" required>
+            </fieldset>
+            <br>
+            <fieldset> 
+                <legend>Endereço</legend>
+                <label>Rua:</label>
+                <input type="text" name="logradouro" placeholder="Nome da rua" class="class_input" required>
+                <label>Número:</label>
+                <input type="text" name="numero" placeholder="Número" required>
+                <br><br>
+                <label>Complemento:</label> 
+                <input type="text" name="complemento" placeholder="Apto, Bloco">
+                <label>CEP:</label>
+                <input type="text" name="CEP" placeholder="Digite seu CEP" pattern="[0-9]{8}" required>
+                <br>
+                <br>
+                <label>Estado:</label>
+                <select name="Estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="GO">Goias</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RR">Roraima</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergie</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+                <label>Cidade:</label>
+                <input type="text" name="cidade" placeholder="Informe a cidade" required>
+            </fieldset><br>
+            <fieldset>
+                <legend>Dados do seu Pet</legend>
+                <label>Nome do pet:</label>
+                <input type="text" name="nomepet" placeholder="Nome do pet" required>
+                <label>Raça:</label>
+                <input type="text" name="raça" placeholder="Informe a raça" required>
+                <br><br>
+                <label>Tipo:</label>
+                <select name="TipodoPet">
+                    <option value="pet_gato">Gato</option>
+                    <option value="pet_cachorro">Cachorro</option>
+                </select>
+                <label>Temperamento:</label>
+                <input type="text" name="Temperamento" placeholder="Como é o seu pet?" required>
+                <br><br>
+                <label>Data de nascimento:</label>
+                <input type="text" name="nascimento_pet" placeholder="DD/MM/AAAA" pattern="[0-9]{8}" required>
+                <label>Sexo:</label>
+                <select name="sexopet">
+                    <option value="pet_macho">Macho</option>
+                    <option value="pet_femea">Fêmea</option>
+                </select>
+            </fieldset>
+            <br><br>
+            <center>
+            <input class="class_botao_enviar" type="submit">
+            </center>
+            <br>
+        </form>
+
+        <hr>
+        <footer>
+            </div> 
+                <a href="../index.html"><p>Voltar</p></a>
+            
+            <div class="pag">
+                <a href="pagserviço.html">Ir para a Página de Serviços</a>
+            </div>
+        </footer>
+        
+</body>
+</html>

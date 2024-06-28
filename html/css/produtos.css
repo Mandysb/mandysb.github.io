@@ -1,0 +1,77 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    width: 100%;
+    background-color:rgb(248, 168, 181);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    text-decoration: black;
+}
+
+body
+{
+    background-color: rgb(218, 218, 218);
+}
+
+.card div
+{
+    background-color: white;
+    width: 180px;
+    height: 101px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px gray;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card h3
+{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.card h5
+{
+    font-size: smaller;
+}
+
+.card img
+{
+    border-radius: 10px;
+}
+
+.card button
+{
+    background-color: rgb(253, 147, 164);
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/*comandoo "text-decoration: none;" colocado para retirar a linha preta do link, por motivos estéticos*/
+a:link
+{
+    color: black;
+    text-decoration: none;
+}
+a:visited
+{
+    color: black;
+    text-decoration: none;
+}
+
+

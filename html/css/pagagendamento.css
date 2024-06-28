@@ -1,0 +1,26 @@
+body
+{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(248, 168, 181);
+}
+
+form
+{
+    font-weight: bold;
+}
+
+.texto
+{
+    text-align: center;
+}
+
+.vol
+{
+    text-align: left;
+}
+
+.pag
+{
+    text-align: right;
+}
